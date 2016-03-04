@@ -1,0 +1,19 @@
+> # read a csv file and plots the data on it
+> test_plot= read.csv(file.choose()) # choose from the files and calls is test_plot
+> 
+> 
+> test_plot
+   age height
+1    1    100
+2    2    101
+3    3    102
+4    4    103
+5    5    104
+6    6    105
+7    7    106
+8    8    107
+9    9    108
+10  10    109
+> plot(test_plot$age, test_plot$height, xlab="Age", ylab="Height", main="Test plot")
+> 
+> 
